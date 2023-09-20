@@ -56,7 +56,7 @@ $sql = "
 $db_prd = ['192.168.1.101', 'developer', 'mipassword', 'chavo_del_8']; /* este query se conectara a esta base de datos */
 
 $rws = run_exec($sql,3,0,$db_prd); /* le enviamos a la funcion ( Query , 3 = numero permanente y no lo cambies, 0 = sin depurar 1 = depurar "te mostrara el query", conexion a Base de datos  ) */
-$rows_a = $rws[1];  /* 1 = mytable*/
+$rows = $rws[1];  /* 1 = mytable*/
 
 
 

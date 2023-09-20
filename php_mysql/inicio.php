@@ -31,15 +31,15 @@ $rows_b = $rws[2];  /* 2 = estaciones*/
 $rows_c = $rws[3];  /* 3 = vehiculos*/
 
 
-foreach($rows as $columna){
+foreach($rows_a as $columna){
     echo $columna['id'].'-----'.$columna['text'].'-----'.$columna['option'].'<br />';
 }
 
-foreach($rows as $columna){
+foreach($rows_b as $columna){
     echo $columna['id'].'-----'.$columna['estacion'].'<br />';
 }
 
-foreach($rows as $columna){
+foreach($rows_c as $columna){
     echo $columna['id'].'-----'.$columna['lista'].'<br />';
 }
 
